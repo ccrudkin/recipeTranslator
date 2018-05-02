@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.tools {
+  width: 150px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #d6dbdf;
+  background-color: #7dcea0;
+  display: inline-block;
+  border-left: 2px solid #34495e;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 20px 30px;
+}
+
+.fieldHead {
+  font-family: Roboto;
+  color: #34495e;
+  background: #7dcea0;
+  width: 250px;
+  height: 25px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.userField {
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.textField {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 250px;
+  max-height: 400px;
+  min-width: 250px;
+  min-height: 400px;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+.moreInfo {
+  width: 800px;
+  background: #d4efdf;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 10px auto;
+}
+
+.moreInfo p {
+  width: 475px;
+  color: #34495e;
+  font-family: Cutive;
+  font-size: 10px;
+  margin: auto;
+}
+
+#mainFields {
+  text-align: center;
+  width: 800px;
+  background-image: url("produce_rsz.jpg");
+  background-size: cover;
+  background-color: #e9f7ef;
+  margin: 50px auto;
+  border-radius: 3px;
+}
+
+#defaultDrop {
+  color: #888
+}
+
+#convertButton {
+  margin: 10px 10px;
+  border-radius: 3px;
+}
