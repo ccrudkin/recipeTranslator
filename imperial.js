@@ -52,5 +52,6 @@ function toImperial(recipeText, method) {
     recipeText = liquidLines.join('\n');
 
     recipeText = recipeText.replace(kg, kgToLb);
+    recipeText = recipeText.replace(ml, mlToOz);
     return recipeText.replace(g, gToOz);
 }

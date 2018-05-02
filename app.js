@@ -1,6 +1,6 @@
 // Special ingredient list
-const liquids = ['water', 'milk', 'vinegar', 'syrup', 'vodka', 'sauce', 
-                'mayonnaise', 'vanilla extract', 'juice', 'oil', 'honey'];
+const liquids = ['water', 'milk', 'vinegar', 'syrup', 'vodka', 'sauce', 'cream', 
+                'mayonnaise', 'vanilla extract', 'juice', 'oil', 'honey', 'paste'];
 const drygoods = ['flour', 'salt', 'sugar', 'baking soda', 'baking powder'];
 
 // Base functions
