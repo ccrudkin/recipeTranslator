@@ -11,7 +11,7 @@ function toMetric(recipeText) {
 
     lines = recipeText.split('\n');
     liquidLines = [];
-    lines.forEach((line) => {
+    lines.forEach((line) => {  // replace liquids first
         let converted = false;
         line = line.replace(extraSpace, '');
         liquids.forEach((liquid) => {
@@ -32,7 +32,7 @@ function toMetric(recipeText) {
     });
 
     dryLines = [];
-    liquidLines.forEach((line) => {
+    liquidLines.forEach((line) => {  // replace dry goods with known conversion factors
         let converted = false;
         drygoods.forEach((dry) => {
             let regex = RegExp(dry);
@@ -53,6 +53,5 @@ function toMetric(recipeText) {
     recipeText = dryLines.join('\n');
 
     recipeText = recipeText.replace(lb, lbsToKg);
-    // recipeText = recipeText.replace(cups, cupsToMl); // just liquid to cups
     return recipeText.replace(oz, ozToG);
 }

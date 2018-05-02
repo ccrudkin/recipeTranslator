@@ -1,4 +1,4 @@
-// margin of error with rounding method used is acceptable in this application
+// errors with rounding method used are known and acceptable in this application
 // DRY principles not fully followed here to make the functions more explicit
 
 function lbsToKg(n) {
