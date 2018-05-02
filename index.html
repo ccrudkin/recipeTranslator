@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ReUnit</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive|Roboto:400,700" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id="mainFields">
+      <div class="userField">
+        <h2 class="fieldHead">Original recipe</h2>
+        <textarea class="textField" id="inputRecipe" placeholder="Enter recipe *"></textarea>
+      </div>
+      <div class="tools">
+        <!-- <h3>Convert</h3> -->
+        <select name="convertTo" id="unitSelector">
+          <option value="" id="defaultDrop">Select conversion</option>
+          <option value="toMetric">Imperial to metric</option>
+          <!-- <option value="toImperial">Metric to imperial</option> -->
+        </select>
+        <button class="button" id="convertButton">Convert</button>
+      </div>
+      <div class="userField">
+        <h2 class="fieldHead">ReUnit recipe</h2>
+        <textarea class="textField" id="outputRecipe"></textarea>
+      </div>
+    </div>
+    <div class="moreInfo">
+      <p>
+      * Nothing is perfect. There are some types of input, units and measurement combinations this converter can't understand. In most cases, it will leave volumes as-is when the conversion factor is unknown -- so 1 cup of walnuts will just be 1 cup of walnuts.
+      </p>
+      <div class="info">
+        <br>
+        <p>Find the repo for this project at <a href="https://github.com/ccrudkin" target="_blank">ccrudkin's Github</a>.</p>
+      </div>
+    </div>
+    <script src="metricConversions.js"></script>
+    <script src="metric.js"></script>
+    <script src="imperial.js"></script>
+    <script src="imperialConversion.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
