@@ -59,7 +59,7 @@
 }
 
 .moreInfo p {
-  width: 475px;
+  width: 500px;
   color: #34495e;
   font-family: Cutive;
   font-size: 10px;
@@ -69,7 +69,7 @@
 #mainFields {
   text-align: center;
   width: 800px;
-  background-image: url("produce_rsz.jpg");
+  background-image: url("produce_rz.jpg");
   background-size: cover;
   background-color: #e9f7ef;
   margin: 50px auto;
