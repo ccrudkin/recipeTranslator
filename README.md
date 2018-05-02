@@ -1,3 +1,3 @@
 A single-page web tool to convert between metric and imperial recipes. 
 
-Media credit: "Fresh Produce" by [Lori L. Stalteri on Flickr]("https://www.flickr.com/photos/llstalteri/5129545212/in/photolist-8Phg5G-2491xsi-237eMJd-dWWbct-dcp5TZ-6ywW1P-8UykdQ-cyqfN5-pritV5-adsLPm-dCi2hK-5D6smz-d9oNw5-Ci185-d9oTAQ-cJFYJC-d9oZb7-89S3GV-926Tpr-dadjfc-5h9x1p-4DLU5o-9No2F4-926ToM-26wLL2Y-9X4x9W-9NnXnt-9EmCZF-66aUG5-pBCysV-7vroJx-sytGfS-22gzUay-DDYgJ2-c4vGFj-8z5Zjj-7BVbds-4DLV3C-4DGCpK-hg7yq5-4DLTS5-q4U6t-7HsgWx-o5vqKZ-o4ZqGY-9X4va3-9dnMfF-bxrKZV-2C79qA-9NqR4E"), photo manipulated by Github user ccrudkin.
+Media credit: "Fresh Produce" by [Lori L. Stalteri on Flickr]("https://flic.kr/p/8Phg5G"), photo manipulated by Github user ccrudkin.
