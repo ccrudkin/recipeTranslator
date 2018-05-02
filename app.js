@@ -14,8 +14,12 @@ function convertRecipe() {
     let textOut;
     if (units === 'toMetric') {
         textOut = toMetric(textIn);
-    } else if (units === 'toImperial') {
-        textOut = toImperial(textIn);
+    } else if (units === 'toImperial' || units === 'toImperialV') {
+        if (units === 'toImperial') {
+            textOut = toImperial(textIn, 'w');
+        } else {
+            textOut = toImperial(textIn, 'v');
+        }
     } else {
         textOut = 'Please choose a conversion';
     }

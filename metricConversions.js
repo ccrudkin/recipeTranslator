@@ -106,7 +106,6 @@ function dryConv(line, kind, unit) {
     }
 
     if (kind === 'flour') {
-        console.log(gPer.flour[unit]);
         return round(val.exec(line) * gPer.flour[unit]) + ' g';
     } else if (kind === 'salt') {
         return round(val.exec(line) * gPer.salt[unit]) + ' g';
@@ -134,11 +133,9 @@ function flourCupsToG(n) {
 
 function fracToDec(n) {
     let frac = /((\d+)\s+)?(\d)\/(\d+)/;
-
     parse = frac.exec(n);
-
-    console.log(n);
-    console.log(parse);
+    // console.log(n);
+    // console.log(parse);
 
     if (parse[1] != undefined) {
         return (parse[2] / 1) + (parse[3] / parse[4]);  // treat parse[2] like a number
