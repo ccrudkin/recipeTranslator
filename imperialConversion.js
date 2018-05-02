@@ -91,16 +91,42 @@ function dryConvM(line, kind, unit) {
             return round(amount * 16) + ' tablespoons';
         } else {
             return round(amount * 48) + ' teaspoons';
-        }
-        
+        }        
     } else if (kind === 'salt') {
-        return round(val.exec(line) * gPer.salt[unit]) + ' g';
+        amount = val.exec(line) / gPer.salt.cup;
+        if (amount > 0.25) {
+            return round(amount) + ' cups';    
+        } else if (amount > .1) {
+            return round(amount * 16) + ' tablespoons';
+        } else {
+            return round(amount * 48) + ' teaspoons';
+        }
     } else if (kind === 'sugar') {
-        return round(val.exec(line) * gPer.sugar[unit]) + ' g';
+        amount = val.exec(line) / gPer.sugar.cup;
+        if (amount > 0.25) {
+            return round(amount) + ' cups';    
+        } else if (amount > .1) {
+            return round(amount * 16) + ' tablespoons';
+        } else {
+            return round(amount * 48) + ' teaspoons';
+        }
     } else if (kind === 'baking soda') {
-        return round(val.exec(line) * gPer.soda[unit]) + ' g';
+        amount = val.exec(line) / gPer.soda.cup;
+        if (amount > 0.25) {
+            return round(amount) + ' cups';    
+        } else if (amount > .1) {
+            return round(amount * 16) + ' tablespoons';
+        } else {
+            return round(amount * 48) + ' teaspoons';
+        }
     } else if (kind === 'baking powder') {
-        return round(val.exec(line) * gPer.powder[unit]) + ' g';
-    }
-    
+        amount = val.exec(line) / gPer.powder.cup;
+        if (amount > 0.25) {
+            return round(amount) + ' cups';    
+        } else if (amount > .1) {
+            return round(amount * 16) + ' tablespoons';
+        } else {
+            return round(amount * 48) + ' teaspoons';
+        }
+    }    
 }
